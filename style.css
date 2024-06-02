@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --custom-color: rgb(255,49,71);
+    --primary-color:white;
+    --indicator-color: rgb(249, 11, 221);
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-headline{
+    font-size: 0.8rem;
+    }
+
+footer {
+    background-color: #f8f9fa;
+}
+
+/* Use the custom color variable for the button */
+.btn-custom-color {
+    background-color: var(--custom-color);
+    color: var(--primary-color); /* Set text color to white for better visibility */
+    text-transform: uppercase;
+    border: none; 
+    border-radius: 0;
+    padding: 0.4rem 1rem;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+}
+
+.btn-custom-color:hover{
+background-color: rgb(250, 89, 105);
+color: var(--primary-color);
+}
+
+/* .btn:focus,
+.btn.focus {
+    outline: none; 
+    box-shadow: none; 
+}
+.form-check-input:focus {
+    outline: none; 
+    box-shadow: none; 
+} */
+.underline {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.underline:focus {
+    border-bottom: 2px solid var(--custom-color);
+    box-shadow: none;
+}
+.modal-header {
+    border-bottom: none; /* Remove the bottom border */
+}
+.modal-title{
+font-size: 1.1rem;
+font-weight: 600;
+}
+/* Custom checkbox styles */
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--custom-color); /* Set the background color of the tick to your custom color */
+}
+.form-check-label{
+font-size: 0.9rem;
+color: rgba(0, 0, 0, 0.8);
+}
+
+.form-details-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+}
+.text-color {
+    color: var(--custom-color);
+}
+
+.small {
+    font-size: 0.7rem;
+    margin-top: 0.9rem;
+}
+.d-block {
+    height: 50vh;
+}
+
+/* Pink dots for carousel indicators */
+.carousel-indicators li {
+    background-color: rgb(249, 11, 221);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px; /* Adjust margin for spacing between dots */
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: var(--indicator-color);
+}
+
+/* Position indicators in a row */
+.carousel-indicators-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+/* Style for the overlay */
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 45px;
+    background-color: var(--custom-color);
+}
+.icon-size {
+    font-size: 3rem; 
+}
+.what-we-do{
+    background-color: rgb(250,250,250);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.space{
+    display: flex;
+    gap: 15px;
+    }
+
+    .margin{
+        margin-left: 10%;
+        font-size: 0.8rem;
+    }
+/* Show overlay on hover */
+.image-container:hover .overlay {
+    display: block;
+}
+
+/* Style for the page content */
+.page-content {
+    text-align: center;
+}
+
+/* Style for the "Read More" button */
+.read-more-btn {
+    margin-top: 10px;
+}
+
+/* Style for the image container */
+.image-container {
+    position: relative;
+    overflow: hidden; /* Ensure the overlay stays within the container */
+    margin-top: 30px;
+}
+/* Styling for the new section */
+section.text-center p, section.text-center h1 {
+    text-align: center;
+}
+
+.text-item:hover {
+    background-color: var(--custom-color); /* Use your custom color */
+    color: var(--primary-color);
+}
+
+.text-image-container .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+}
+
+#dynamicImage {
+    flex: 1;
+    margin-top: 32px;
+    width: 100%; /* Make the image width 100% */
+}
+
+.text-item {
+    cursor: pointer;
+    background-color: rgb(250,250,250);
+    padding: 30px;
+    width: 100%; /* Set the width to 100% */
+    margin-bottom: -20px; 
+    margin-top: 12px;
+}
+
+/* Add custom styles for the active text item */
+.text-item.active {
+    background-color: var(--custom-color);
+    color: var(--primary-color);
+    padding: 30px;
+}
+
+/* card style */
+.growth-section {
+    background-color:rgb(250,250,250);
+    padding: 50px 0;
+}
+.card {
+    margin-top: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.card .icons {
+    font-size: 1rem; /* Reduced icon size */
+    color: var(--custom-color);
+}
+
+

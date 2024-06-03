@@ -95,7 +95,7 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  margin: 0 5px; /* Adjust margin for spacing between dots */
+  margin: 0 5px; 
   cursor: pointer;
 }
 
@@ -103,7 +103,6 @@ body {
   background-color: var(--indicator-color);
 }
 
-/* Position indicators in a row */
 .carousel-indicators-container {
   display: flex;
   margin-top: 100px;
@@ -157,7 +156,7 @@ body {
 /* Style for the image container */
 .image-container {
   position: relative;
-  overflow: hidden; /* Ensure the overlay stays within the container */
+  overflow: hidden; 
   margin-top: 30px;
 }
 /* Styling for the growth section */
@@ -167,7 +166,7 @@ section.text-center h1 {
 }
 
 .text-item:hover {
-  background-color:var(--custom-color); /* Use your custom color */
+  background-color:var(--custom-color); 
   color: var(--primary-color);
 }
 
@@ -175,20 +174,20 @@ section.text-center h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center items horizontally */
+  align-items: center; 
 }
 
 #dynamicImage {
   flex: 1;
   margin-top: 32px;
-  width: 100%; /* Make the image width 100% */
+  width: 100%; 
 }
 
 .text-item {
   cursor: pointer;
   background-color: rgb(250, 250, 250);
   padding: 30px;
-  width: 100%; /* Set the width to 100% */
+  width: 100%;
   margin-bottom: -20px;
   margin-top: 12px;
 }
@@ -223,7 +222,7 @@ section.text-center h1 {
 }
 .choose1 {
   flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
-  margin: 10px; /* Optional: Add margin for spacing */
+  margin: 10px; 
 }
 
 .text-black {
@@ -250,7 +249,7 @@ section.text-center h1 {
   color: rgba(5, 5, 5, 0.6);
 }
 
-/* footer */
+/* Footer */
 .footer-section .text-image-container img {
   max-width: 100%; 
 }
@@ -262,18 +261,30 @@ section.text-center h1 {
   color: var(--primary-color); 
 }
 
-.footer-section .footer-section .container {
+.footer-section .container {
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
 }
 
-.footer-section .text-image-container .choose1 {
-  flex: 0 0 auto; /* Prevent shrinking or growing */
-  margin: 0 10px; /* Adjust spacing between images */
+.footer-section .text-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.footer-section .text-image-container img {
-  max-width: 100px; 
+.choose1 img {
+  max-width: 100%;
   height: auto;
+  display: block;
 }
+
+.h6{
+  font-size: 0.8rem;
+}
+@media (max-width: 768px) {
+  .text-image-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+} 

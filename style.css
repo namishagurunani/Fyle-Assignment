@@ -256,4 +256,6 @@ section.text-center h1 {
     max-width: 100px; /* Adjust the image size as needed */
     height: auto;
 }
-
+.text-black{
+color: #605e5e;
+}

@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup and Installation](#installation)
+- [Installation](#installation)
 
 
 ## Overview

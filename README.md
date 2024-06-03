@@ -33,4 +33,4 @@ This project is a web application built with HTML, CSS, JavaScript, and jQuery, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/namishagurunani/Fyle-Assignment.git

@@ -1,11 +1,11 @@
-# Project Name
+# Fyle's Assignment
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
+- [Setup and Installation](#installation)
 
 
 ## Overview
